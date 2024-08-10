@@ -15,6 +15,16 @@ h1{
    color: orangered;
     font-size: 60px;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: black;
+    text-align: center; 
+    z-index: 1000; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  
     
 }
 .cont1 a{
@@ -24,14 +34,14 @@ h1{
 header{
     padding: 16px 0;
    
- 
+    
    
 
 }
 h2,h3{
     font-family: 'Roboto', sans-serif;
    color: orangered;
-
+background-color: black;
     font-size: 40px;
 }
 
@@ -48,14 +58,14 @@ h2,h3{
     margin-left: 16px;
 }
 body{
-    background-color: black;
+    background-color: aliceblue;
 }
 section .Menu li{
     display: inline;
     margin-left: 100px;
     font-size: 40;
     font-family: 'Bungee', cursive;
-  
+    
 }
 .Noticias{
     display: flex;
@@ -68,6 +78,8 @@ section .Menu li{
 
     width: 500px;
     height: 0 auto;
+    border: 5px solid black; 
+    border-radius: 5px; 
 
 }
 p{
@@ -76,6 +88,7 @@ p{
   color: orangered;
     font-size: 24px;
     max-width: 500px;
+    
 }
 
 form input, form textarea, form button{
@@ -121,7 +134,9 @@ header .Menu li{
 } 
 
 
-
+.cont1{
+    background-color: black;
+}
 .cont1 li{
 
     display: inline;
@@ -133,13 +148,20 @@ header .Menu li{
     color: orangered;
     font-size: 35px;
     padding-left: 100px;
+    
 }
 .n1 {
     background-image: url('Personagens/asd.jpg');
-    background-size: cover; /* Faz com que a imagem cubra toda a área visível da página */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    margin: 0; /* Remove a margem padrão do body */
-    padding: 0; /* Remove o padding padrão do body */
-    height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+}
+.sub {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
 }
