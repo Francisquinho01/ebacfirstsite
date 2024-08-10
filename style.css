@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .cont, .Noticias{
     max-width: 1280px;
     width: 100%;
@@ -11,26 +12,33 @@
 
 h1{
     font-family: 'Roboto', sans-serif;
-   
+   color: orangered;
     font-size: 60px;
+    align-items: center;
+    
+}
+.cont1 a{
+    text-decoration: none;
+    
 }
 header{
     padding: 16px 0;
-    background-color: orange;
-   color: white;
-   align-items: center;
+   
+ 
+   
 
 }
 h2,h3{
     font-family: 'Roboto', sans-serif;
-    color: aliceblue;
+   color: orangered;
+
     font-size: 40px;
 }
 
  .cont{
     display: flex; 
     align-items: center; 
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .Imgevideo img,
@@ -49,26 +57,25 @@ section .Menu li{
     font-family: 'Bungee', cursive;
   
 }
-
 .Noticias{
     display: flex;
     flex-wrap: wrap;
    justify-content: space-between;
     
 }
+
 .Noticias img{
 
-    width: 300px;
+    width: 500px;
     height: 0 auto;
+
 }
 p{
 
-    font-family: 'Bungee', cursive; 
-    
-   color: black;
+   background-color: aliceblue;
+  color: orangered;
     font-size: 24px;
-    max-width: 300px;
-    background-color: orange;
+    max-width: 500px;
 }
 
 form input, form textarea, form button{
@@ -111,4 +118,28 @@ header .Menu li{
 
 .Fim img{
     width: 300px;
+} 
+
+
+
+.cont1 li{
+
+    display: inline;
+
+}
+.cont1 li a{
+    font-family: 'Roboto', sans-serif;
+ 
+    color: orangered;
+    font-size: 35px;
+    padding-left: 100px;
+}
+.n1 {
+    background-image: url('Personagens/asd.jpg');
+    background-size: cover; /* Faz com que a imagem cubra toda a área visível da página */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
 }
